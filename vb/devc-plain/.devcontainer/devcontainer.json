@@ -2,6 +2,6 @@
   "name": "devc-plain",
   "image": "ubuntu:22.04",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1.0.6": {}
+    "ghcr.io/devcontainers/features/github-cli:1.1.3": {}
   }
 }
