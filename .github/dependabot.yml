@@ -10,7 +10,7 @@ updates:
     cooldown:
       default-days: 30
       exclude:
-        - "Brownserve-UK/*"
+        - "brownserve-uk/*"
     groups:
       brownserve:
         patterns:
