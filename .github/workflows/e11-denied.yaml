@@ -5,6 +5,6 @@ jobs:
   release:
     permissions:
       contents: read
-    uses: Brownserve-UK/copier-scratch/.github/workflows/release.yaml@v1.0.0
+    uses: Brownserve-UK/copier-scratch/.github/workflows/release.yaml@v1.1.0
     with:
       container: true
