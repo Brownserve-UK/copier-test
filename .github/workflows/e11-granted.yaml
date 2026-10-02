@@ -1,0 +1,11 @@
+name: e11-granted
+on: workflow_dispatch
+
+jobs:
+  release:
+    permissions:
+      contents: read
+      packages: write
+    uses: Brownserve-UK/copier-scratch/.github/workflows/release.yaml@v1.0.0
+    with:
+      container: true
