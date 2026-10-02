@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - dependencies
+      - bug
+    cooldown:
+      default-days: 30
+      exclude:
+        - "Brownserve-UK/*"
+    groups:
+      brownserve:
+        patterns:
+          - "brownserve-uk/*"
